@@ -1,12 +1,14 @@
 #include <stdio.h>
 int main() {
-   int nombre;
-   char[100] nombre;
-   printf("Hello, World!");
-   printf("Nombre:")
+   unsigned int edad;
+   char nombre[100];
+   //printf("Hello, World!");
+   printf("Nombre:");
    fgets(nombre, sizeof(nombre), stdin);
-   printf("Edad:")
-   scanf("d", edad);
-   printf("%s tiene %d ", nombre, edad);
+
+   printf("Hola %s",nombre);
+   printf("Edad:");
+   scanf("%d", &edad);
+   printf("Tienes %d años",edad);
    return 0;
 }
