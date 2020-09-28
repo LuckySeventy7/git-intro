@@ -7,12 +7,7 @@ return a+b;
 }
 
 int resta(int a, int b){
-    if(a<0)
-        return a-b;
-    return
-    if(b>0)
-        return a-b;
-    return
+return a-b;
 
 }
 
