@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
+   
    unsigned int edad;
-   char nombre[100];
-   //printf("Hello, World!");
+   char nombre[10
    printf("Nombre:");
    fgets(nombre, sizeof(nombre), stdin);
 
