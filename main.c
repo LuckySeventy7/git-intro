@@ -2,7 +2,7 @@
 int main() {
    
    unsigned int edad;
-   char nombre[10
+   char nombre[10]
    printf("Nombre:");
    fgets(nombre, sizeof(nombre), stdin);
 
