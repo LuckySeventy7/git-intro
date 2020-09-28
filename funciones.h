@@ -10,6 +10,10 @@ int resta(int a, int b){
     if(a<0)
         return a-b;
     return
+    if(b>0)
+        return a-b;
+    return
+
 }
 
 #endif
